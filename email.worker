@@ -1,0 +1,5 @@
+runtime "ruby"
+
+gem "mail"
+
+exec "email_worker.rb"

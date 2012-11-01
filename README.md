@@ -31,9 +31,7 @@ You can queue up tasks for it in any language. Check out our [Client Libraries](
 in the language of your choice to make it easy, but here's an example using curl:
 
 ```
-$ curl -d '{"tasks": [{"code_name": "email", "payload": "{
-\"host\": \"smtp.sendgrid.net\",
-\"domain\": \"MY DOMAIN eg: iron.io\",
+$ curl -d '{"tasks": [{"code_name": "email", "payload": "{ \"host\": \"smtp.sendgrid.net\", \"domain\": \"MY DOMAIN eg: iron.io\",
 \"port\": 587,
 \"username\": \"MY USERNAME\",
 \"password\": \"MY PASSWORD\",

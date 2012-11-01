@@ -16,3 +16,7 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+.idea/
+tmp.rb
+iron.json
